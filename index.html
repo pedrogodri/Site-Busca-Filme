@@ -13,7 +13,24 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar bg-gray">
+            <div class="container-fluid">
+                <img src="./_favicons/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <h3 id="titulo">Busca Filmes</h3>
+                <form id="formulario" class="d-flex" role="search">
+                    <input id="pesquisar" class="form-control me-2" type="search" placeholder="Digite o nome do filme" aria-label="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </span>
+                </form>
+            </div>
+        </nav>
+    </header>
 
+    <div class="container">
+        <div class="row" id="filmes"></div>
+    </div>
 
 
     <!-- JQuery -->
