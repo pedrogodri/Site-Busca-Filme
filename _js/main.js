@@ -31,3 +31,13 @@ function buscarFilmes(filmePesquisa) {
             console.log(error);
         });
 }
+
+function filmeDetalhes(id) {
+    sessionStorage.setItem('filmesID', id);
+    window.location = 'detalhes.html';
+    return false;
+}
+
+function mostrarDetalhesFilme() {
+
+}

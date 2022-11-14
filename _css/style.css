@@ -5,3 +5,12 @@
     color: #e4ecff;
     text-align: center;
 }
+
+.thumbnail {
+    height: 360px;
+    text-align: center;
+}
+
+.thumbnail img {
+    height: 230px;
+}
